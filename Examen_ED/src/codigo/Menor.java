@@ -1,19 +1,21 @@
+package codigo;
+
 /*
- * Clase que nos devuelve el número mayor entre dos números
+ * Clase que nos devuelve el número menor entre dos números
  * */
-public class Mayor {
+public class Menor {
 	//Inicialización
 	private int a;
 	private int b;
 
 	//Constructor
-	public Mayor() {
+	public Menor() {
 		a=0;
 		b=0;
 	}
 	
 	public void setA(int a){
-		this.b=b;
+		this.a=b;
 	}
 
 	public void setB(int b){
@@ -21,8 +23,8 @@ public class Mayor {
 	}
 	
 	//Método que permite decolver el número mayor
-	public int mayor(){
-		if(a>b) return a;
+	public int menor(){
+		if(a<b) return a;
 		else return b;
 	}
 }

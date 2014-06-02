@@ -1,3 +1,5 @@
+package codigo;
+
 
 /*
  * Clase que nos permite restar dos números enteros

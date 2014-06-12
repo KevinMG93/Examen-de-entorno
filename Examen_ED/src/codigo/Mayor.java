@@ -15,7 +15,7 @@ public class Mayor {
 	}
 	
 	public void setA(int a){
-		this.b=b;
+		this.a=a;
 	}
 
 	public void setB(int b){
